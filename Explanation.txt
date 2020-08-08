@@ -1,0 +1,57 @@
+You are given with a array A, and a target value target, return the integer value such that when we change all the integers larger than value in the given array
+to be equal to value, the sum of the array gets as close as possible (in absolute difference) to target.
+In case of a tie, return the minimum such integer.
+Notice that the answer is not neccesarilly a number from arr.
+
+Input Description:
+First line contains, n and target, n denotes the size of the array and target denotes the sum
+Second line contains, n elements of integers in a array
+
+Output Description:
+print the integer value such that when we change all the integers larger than value in the given array
+to be equal to value
+
+Sample Input:
+3 4
+2 1 1
+
+Sample Output:
+2
+
+Explanation:
+if we change the array elements as 2 we can get the sum.
+
+Sample Input:
+4 10
+2 3 4 5
+
+Sample Output:
+3
+
+Sample Input:
+6 23
+4 7 8 13 10 5
+
+Sample Output:
+4
+
+Sample Input:
+5 3
+1 1 1 2 1
+
+Sample Output:
+1
+
+Samlpe Input:
+4 34
+4 5 17 18
+
+Sample Output:
+12
+
+Sample Input:
+8 49
+23 24 12 4 16 43 19 13
+
+Sample Output:
+6
